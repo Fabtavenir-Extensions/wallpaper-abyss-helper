@@ -1,5 +1,11 @@
-html{
-	width: 400px;
-	height: 400px;
-	background-color: red;
+p{
+	@apply text-lg;
+}
+
+input{
+	@apply w-20 rounded border shadow-inner;
+}
+
+p span{
+	@apply inline-block w-20;
 }
